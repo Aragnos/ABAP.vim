@@ -42,6 +42,9 @@ syn keyword abapKeyword		constants data types class
 syn keyword abapKeyword		ranges parameters
 syn match abapKeyword		/select-options/
 syn match abapKeyword		/field-symbols/
+syn match abapKeyword   new
+syn match abapKeyword   value
+syn match abapKeyword   \#
 
 syn keyword abapCond		if else elseif endif case when others endcase
 syn keyword abapRepeat		loop endloop while endwhile do enddo
